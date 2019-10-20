@@ -1,9 +1,10 @@
 # 10. В списке все элементы различны. Поменяйте местами минимальный и максимальный элемент этого списка.
 # Создавать новый список недопустимо.
 
-from random import randint
+# from random import randint
+# a = [randint(1, 50) for i in range(10)]
 
-a = [randint(1, 50) for i in range(10)]
+a = [int(i) for i in input('Введите числа: ').split()]
 print(a)
 for x in range(len(a)):
     for y in range(len(a)):
